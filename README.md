@@ -31,4 +31,4 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/fxtewolde/YogaSync.git
+git clone https://github.com/fxtewolde/YOGASYNC.git
