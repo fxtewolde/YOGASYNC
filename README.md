@@ -17,7 +17,6 @@
 
 ## Technologies Used
 
-- **Java SE 8+**
 - Core Java libraries:
   - `java.util.Scanner` for user input
   - `java.util.ArrayList` and `java.util.List` for managing classes
