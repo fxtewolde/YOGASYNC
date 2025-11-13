@@ -1,12 +1,34 @@
-YogaSync: Fitness Class Registration and Scheduling System
-Description
-YogaSync is a Java-based console application that simulates a fitness membership system. It allows users to register for a YogaSync account, validate their credentials, view weekly class schedules, select and book preferred yoga or swim classes, and process mock payments securely. The app features both member and admin login functionality, ensuring flexibility for different user roles.
-Key Features
-Interactive member registration with input validation for phone number, password, and payment details
-Admin access control for managing user data
-Displays a full weekly class schedule with multiple fitness programs
-Users can book, review, and sort their chosen classes by time using a custom comparator
-Demonstrates the use of collections, maps, input handling, and object-oriented design in Java
-Tech Stack
-Language: Java
-Concepts Used: Collections Framework (ArrayList, HashMap, Comparator), Loops, Conditionals, Input Validation, and Exception Handling
+# YogaSync - Console-Based Fitness App
+
+**YogaSync** is a Java-based console application that allows users to register as members, book yoga and fitness classes, and manage payments. The application supports both regular users and administrators.
+
+---
+
+## Features
+
+- **Member Registration:** Collects and validates user details including name, email, password, and phone number.
+- **Admin Login:** Allows administrators to log in using a secure admin code.
+- **Class Scheduling:** Displays a weekly schedule of yoga, AquaFit, Pilates, swimming, and cardio classes.
+- **Class Booking:** Users can select multiple classes to attend.
+- **Payment Processing:** Handles simple payment validation for bank account, card expiration, and CCV.
+- **Sorting & Display:** Chosen classes are displayed in chronological order.
+
+---
+
+## Technologies Used
+
+- **Java SE 8+**
+- Core Java libraries:
+  - `java.util.Scanner` for user input
+  - `java.util.ArrayList` and `java.util.List` for managing classes
+  - `java.util.HashMap` and `java.util.Map` for scheduling
+  - `java.util.Collections` and `java.util.Comparator` for sorting classes
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/YogaSync.git
